@@ -1,0 +1,12 @@
+F:\WCF\OperationContract\Utils1\bin\Debug\Utils1.dll.config
+F:\WCF\OperationContract\Utils1\bin\Debug\Utils1.dll
+F:\WCF\OperationContract\Utils1\bin\Debug\Utils1.pdb
+F:\WCF\OperationContract\Utils1\obj\Debug\Utils1.dll
+F:\WCF\OperationContract\Utils1\obj\Debug\Utils1.pdb
+F:\WCF\OperationContract\Utils1\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+F:\WCF\hahaha\ServiceContract\Utils\bin\Debug\Utils1.dll.config
+F:\WCF\hahaha\ServiceContract\Utils\bin\Debug\Utils1.dll
+F:\WCF\hahaha\ServiceContract\Utils\bin\Debug\Utils1.pdb
+F:\WCF\hahaha\ServiceContract\Utils\obj\Debug\Utils1.dll
+F:\WCF\hahaha\ServiceContract\Utils\obj\Debug\Utils1.pdb
+F:\WCF\hahaha\ServiceContract\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache

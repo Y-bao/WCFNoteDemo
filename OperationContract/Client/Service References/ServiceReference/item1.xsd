@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="ybao" elementFormDefault="qualified" targetNamespace="ybao" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="HelloWorld1">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloWorld1Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HelloWorld1Result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="YbaoHelloWorld2">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="YbaoHelloWorld2Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="YbaoHelloWorld2Result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloWorld3">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloWorld3Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HelloWorld3Result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloWorld5">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloWorld5Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HelloWorld5Result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloWorld6">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloWorld6Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HelloWorld6Result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloWorld7">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloWorld8">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloWorld8Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HelloWorld8Result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloWorld9">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloWorld9Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HelloWorld9Result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloWorld10">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloWorld10Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HelloWorld10Result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

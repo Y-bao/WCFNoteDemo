@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="ybao" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="ybao" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="ybao/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/WcfDemo/OperationContract/?xsd=xsd0" namespace="ybao" />
+      <xsd:import schemaLocation="http://localhost:8733/WcfDemo/OperationContract/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_HelloWorld1_InputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld1" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld1Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_YbaoHelloWorld2_InputMessage">
+    <wsdl:part name="parameters" element="tns:YbaoHelloWorld2" />
+  </wsdl:message>
+  <wsdl:message name="IService1_YbaoHelloWorld2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:YbaoHelloWorld2Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld3_InputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld3" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld3_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld3Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld5_InputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld5" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld5_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld5Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld6_InputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld6" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld6_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld6Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld7_InputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld7" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld8_InputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld8" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld8_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld8Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld9_InputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld9" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld9_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld9Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld10_InputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld10" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld10_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld10Response" />
+  </wsdl:message>
+  <wsdl:portType msc:usingSession="true" name="IService1">
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="HelloWorld1">
+      <wsdl:input wsaw:Action="ybao/IService1/HelloWorld1" message="tns:IService1_HelloWorld1_InputMessage" />
+      <wsdl:output wsaw:Action="ybao/IService1/HelloWorld1Response" message="tns:IService1_HelloWorld1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="YbaoHelloWorld2">
+      <wsdl:input wsaw:Action="ybao/IService1/YbaoHelloWorld2" message="tns:IService1_YbaoHelloWorld2_InputMessage" />
+      <wsdl:output wsaw:Action="ybao/IService1/YbaoHelloWorld2Response" message="tns:IService1_YbaoHelloWorld2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="HelloWorld3">
+      <wsdl:input wsaw:Action="ybao/IService1/HelloWorld3" message="tns:IService1_HelloWorld3_InputMessage" />
+      <wsdl:output wsaw:Action="ybao/IService1/HelloWorld3Response" message="tns:IService1_HelloWorld3_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="HelloWorld5">
+      <wsdl:input wsaw:Action="ybao/IService1/HelloWorld5" message="tns:IService1_HelloWorld5_InputMessage" />
+      <wsdl:output wsaw:Action="ybao/IService1/HelloWorld5Response" message="tns:IService1_HelloWorld5_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="HelloWorld6">
+      <wsdl:input wsaw:Action="ybao/IService1/HelloWorld6" message="tns:IService1_HelloWorld6_InputMessage" />
+      <wsdl:output wsaw:Action="ybao/IService1/HelloWorld6Response" message="tns:IService1_HelloWorld6_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="HelloWorld7">
+      <wsdl:input wsaw:Action="ybao/IService1/HelloWorld7" message="tns:IService1_HelloWorld7_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="true" name="HelloWorld8">
+      <wsdl:input wsaw:Action="ybao/IService1/HelloWorld8" message="tns:IService1_HelloWorld8_InputMessage" />
+      <wsdl:output wsaw:Action="ybao/IService1/HelloWorld8Response" message="tns:IService1_HelloWorld8_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="HelloWorld9">
+      <wsdl:input wsaw:Action="ybao/IService1/HelloWorld9" message="tns:IService1_HelloWorld9_InputMessage" />
+      <wsdl:output wsaw:Action="ybao/IService1/HelloWorld9Response" message="tns:IService1_HelloWorld9_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="HelloWorld10">
+      <wsdl:input wsaw:Action="ybao/IService1/HelloWorld10" message="tns:IService1_HelloWorld10_InputMessage" />
+      <wsdl:output wsaw:Action="ybao/IService1/HelloWorld10Response" message="tns:IService1_HelloWorld10_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

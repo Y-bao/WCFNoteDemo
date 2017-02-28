@@ -1,0 +1,6 @@
+F:\WCF\hahaha\OperationContract\Lib\bin\Debug\OperationContract.dll.config
+F:\WCF\hahaha\OperationContract\Lib\bin\Debug\OperationContract.dll
+F:\WCF\hahaha\OperationContract\Lib\bin\Debug\OperationContract.pdb
+F:\WCF\hahaha\OperationContract\Lib\obj\Debug\Lib.csprojResolveAssemblyReference.cache
+F:\WCF\hahaha\OperationContract\Lib\obj\Debug\OperationContract.dll
+F:\WCF\hahaha\OperationContract\Lib\obj\Debug\OperationContract.pdb

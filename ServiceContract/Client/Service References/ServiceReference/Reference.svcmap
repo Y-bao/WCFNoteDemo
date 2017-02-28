@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="24fbbda4-0bfe-4091-871e-c7175fde8658" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/WcfDemo/OperationContract/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="9409a22b-2c42-4524-9799-44487ceaea05" SourceId="1" SourceUrl="http://localhost:8733/WcfDemo/OperationContract/?wsdl" />
+    <MetadataFile FileName="item.wsdl" MetadataType="Wsdl" ID="e5b788a9-69d2-4f68-bb70-506c907c30e6" SourceId="1" SourceUrl="http://localhost:8733/WcfDemo/OperationContract/?wsdl=wsdl0" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="7f863892-2860-44e7-a24e-3c4924a9247d" SourceId="1" SourceUrl="http://localhost:8733/WcfDemo/OperationContract/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="c26fd6c6-d4a4-4e70-bbe2-b1f9bd91f3f1" SourceId="1" SourceUrl="http://localhost:8733/WcfDemo/OperationContract/?xsd=xsd0" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="e31e652f-841d-44e7-99b8-f403cce82a70" SourceId="1" SourceUrl="http://localhost:8733/WcfDemo/OperationContract/?xsd=xsd2" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="ebaeafcd-eacc-48db-ab28-c23491d38b38" SourceId="1" SourceUrl="http://localhost:8733/WcfDemo/OperationContract/?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
